@@ -5,7 +5,7 @@ Bu proje, Zinky Games Developer Stajyer pozisyonu teknik case çalışması kaps
 ## 📹 Oynanış Videosu (Gameplay)
 Oyunun mekaniklerini ve akışını aşağıdaki videodan izleyebilirsiniz:
 
-[![Gameplay Video](https://img.youtube.com/vi/WveiAM9Oivk/0.jpg)](https://www.youtube.com/watch?v=WveiAM9Oivk)
+[![Gameplay Video](https://img.youtube.com/vi/WveiAM9Oivk/maxresdefault.jpg)](https://www.youtube.com/watch?v=WveiAM9Oivk)
 
 > *Videoyu izlemek için görsele veya [buraya tıklayın](https://www.youtube.com/watch?v=WveiAM9Oivk).*
 
