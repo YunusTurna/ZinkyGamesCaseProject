@@ -65,13 +65,7 @@ public class PuzzleManager : MonoBehaviour
     {
         if (Pieces.Count > 0)
         {
-            foreach (var p in Pieces)
-            {
-                _animations.KillAnimations(p.transform);
-                p.ClearSprite();
-                p.gameObject.SetActive(false);
-            }
-            Pieces.Clear();
+            ClearPieces();
         }
 
         await Resources.UnloadUnusedAssets();
@@ -85,6 +79,16 @@ public class PuzzleManager : MonoBehaviour
         await UniTask.Delay((int)(animationDuration * 1000));
 
         await ShufflePieces();
+    }
+    public void ClearPieces()
+    {
+        foreach (var p in Pieces)
+        {
+            _animations.KillAnimations(p.transform);
+            p.ClearSprite();
+            p.gameObject.SetActive(false);
+        }
+        Pieces.Clear();
     }
 
     private void CalculateLayoutMetrics()
